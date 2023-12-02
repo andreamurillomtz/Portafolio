@@ -2,10 +2,10 @@
     font-family: "Lato", "Open Sans", "Roboto Thin", 'Helvetica Neue', Helvetica, sans-serif;
 }
 body {
-    background-color: #322D2C;
+    background-color: #FFE4E1;
 }
 h1 {
-    color: gainsboro;
+    color: #708090;
     font-size: 4.6vw;
     padding-left: 3%;
     padding-bottom: 1px;
@@ -14,7 +14,7 @@ hr {
     height:3%;
     border-width: medium;
     margin: 2%;
-    background-color: lightgrey;
+    background-color: #708090;
     vertical-align: baseline;
     display: flex;
 }
@@ -28,18 +28,18 @@ a {
 
 }
 .sec {
-    color: lightgray;
+    color: #708090;
     font-size: 1.4vw;
     display: flex;
     margin: 0.3vw 4.6vw 0.3vw;
     height: auto;
 }
 .sec:hover{
-    color: lightgray;
+    color: #696969;
     font-weight: bold;
 }
 .current_sec {
-    color: lightgray;
+    color: #696969;
     font-size: 1.4vw;
     display: flex;
     margin: 0.3vw 4.6vw 0.3vw;
@@ -73,14 +73,14 @@ img {
 }
 
 .container .unit_id{
-    color: black;
+    color:#708090 ;
     font-size:1.1vw;
     padding-left: 10%;
     font-weight: bold;
 }
 
 .container .info{
-    color: black;
+    color: #708090;
     font-size:1.1vw;
     padding-left: 10%;
 }
@@ -101,7 +101,7 @@ img {
 }
 
 .container_2 .info{
-    color: black;
+    color: #708090;
     font-size:1.1vw;
     padding: 0.5% 2% 2%;
     font-weight: bold;
@@ -122,7 +122,7 @@ img {
 }
 
 .container_sec .info_sec{
-    color: black;
+    color: #708090;
     font-size:1.1vw;
     margin: 10% 2% 2%;
     font-weight: bold;
