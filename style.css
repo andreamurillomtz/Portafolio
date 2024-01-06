@@ -13,7 +13,7 @@ h1 {
 hr {
     height:3%;
     border-width: medium;
-    margin: 0%;
+    margin: 0;
     background-color: #708090;
     vertical-align: baseline;
     display: flex;
@@ -33,6 +33,24 @@ a {
     display: flex;
     margin: 0.3vw 11.1vw 0.3vw;
     height: auto;
+}
+.paper_link {
+    color: #5B5756;
+    font-size: 1.4vw;
+    display: flex;
+    margin: 1vw;
+}
+.paper_link:hover{
+    color: #3d3d3d;
+    font-weight: bold;
+}
+.text_link {
+    color: #708090;
+    font-size: 1.4vw;
+}
+.text_link:hover{
+    color: #696969;
+    font-weight: bold;
 }
 .sec:hover{
     color: #696969;
@@ -61,7 +79,7 @@ a {
     padding-left: 40%;
 }
 h4 {
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
 .container{
     border: 2px solid #5B5756;
@@ -74,6 +92,17 @@ h4 {
     display: flex;
     height: fit-content;
 }
+.link_container{
+    border: 2px solid #5B5756;
+    background-color: #a8a8a8;
+    text-align: left;
+    color: #2a2e33;
+    margin-top: auto;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
 .about_boxes {
     display:flex;
     justify-content:space-between;
@@ -84,7 +113,7 @@ h4 {
     text-align: center;
     color: #708090;
     border-radius: 4% 4% 4% 4%;
-    padding: 1%;
+    padding: 2% 5%;
     display: flex;
     height: fit-content;
     width: fit-content;
@@ -92,7 +121,7 @@ h4 {
 .lists{
     text-align: left;
 }
-li {
+.li {
     margin-bottom: 10%;
 }
 img.portrait{
@@ -103,22 +132,25 @@ img.portrait{
     align-items: center;
 }
 .information{
-    display: inline-grid;
+    display: grid;
     grid-template-rows: 20% 20% 20%;
-    padding-top: 0.7%;
+
 }
 img.icons {
     width: 35%;
     height: auto;
     max-height: 40%;
     object-fit: contain;
-    justify-content: left;
+    vertical-align: middle;
 }
 .about {
     color: #708090;
     font-size: 1.4vw;
     margin-left: 1%;
     margin-right: 1%;
+}
+.projects {
+    line-height: 200%;
 }
 .sub_about {
     color: #708090;
@@ -127,13 +159,14 @@ img.icons {
 .info {
     color: #708090;
     font-size: 1.4vw;
-    margin: 1%;
 }
 .info:hover{
     color: #696969;
     font-weight: bold;
 }
 .contact {
-    display: flex;
-    vertical-align: middle;
+    display: inline-flex;
+}
+.multiple_links {
+    display: inline-flex;
 }
