@@ -18,6 +18,15 @@ hr {
     vertical-align: baseline;
     display: flex;
 }
+.container_sep{
+    height: 0.4%;
+    border-width: inherit;
+    background-color: #708090;
+    vertical-align: baseline;
+    display: flex;
+    width: auto;
+    margin: 2% 0;
+}
 .sections{
     text-align: center;
     display:flex;
@@ -71,12 +80,6 @@ a {
     object-fit: contain;
     display: block;
     justify-content: left;
-}
-.container_2 .title{
-    color: #708090;
-    font-size:1.1vw;
-    font-weight: bold;
-    padding-left: 40%;
 }
 h4 {
     margin-bottom: 0;
@@ -136,12 +139,12 @@ img.portrait{
     grid-template-rows: 20% 20% 20%;
 
 }
-img.icons {
-    width: 35%;
+.icons {
+    width: 4vw;
     height: auto;
-    max-height: 40%;
+    max-height: 40vw;
     object-fit: contain;
-    vertical-align: middle;
+    margin: 2%;
 }
 .about {
     color: #708090;
